@@ -1,0 +1,7 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/time_with_granularity
+lib/time_with_granularity.rb
+test/test_time_with_granularity.rb
