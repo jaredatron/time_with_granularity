@@ -8,7 +8,6 @@ Hoe.new('time_with_granularity', TimeWithGranularity::VERSION) do |p|
   p.developer('Jared Grippe', 'jared@jaredgrippe.com')
 end
 
-
 task :test => :spec
 
 # vim: syntax=Ruby

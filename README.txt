@@ -8,10 +8,11 @@ Extends Time with granularity methods for representing ranges of time
 
 == FEATURES:
 
-Time#granularity
-Time#range
-Time#eldest_time
-Time#youngest_time
+  TimeWithGranularity.parse
+  Time#granularity
+  Time#range
+  Time#eldest_time
+  Time#youngest_time
 
 == PROBLEMS:
 
@@ -20,21 +21,21 @@ Time#youngest_time
 
 == SYNOPSIS:
 
-time = TimeWithGranularity.parse('August 1st 1982')
-# => Sun Aug 01 03:00:00 -0700 1982
-
-time.granularity
-# => 1 month
-
-time.eldest_time
-# => Sat Jul 17 03:00:00 -0700 1982
-
-time.youngest_time
-# => Mon Aug 16 03:00:00 -0700 1982
-
-time.range
-# => Sat Jul 17 03:00:00 -0700 1982..Mon Aug 16 03:00:00 -0700 1982
-
+  time = TimeWithGranularity.parse('August 1st 1982')
+  # => Sun Aug 01 03:00:00 -0700 1982
+  
+  time.granularity
+  # => 1 month
+  
+  time.eldest_time
+  # => Sat Jul 17 03:00:00 -0700 1982
+  
+  time.youngest_time
+  # => Mon Aug 16 03:00:00 -0700 1982
+  
+  time.range
+  # => Sat Jul 17 03:00:00 -0700 1982..Mon Aug 16 03:00:00 -0700 1982
+  
 == REQUIREMENTS:
 
 active_support
@@ -42,6 +43,11 @@ active_support
 == INSTALL:
 
 sudo gem install deadlyicon-time_with_granularity --source http://gems.github.com
+
+== AUTHOR:
+
+Jared Grippe
+jared@jaredgrippe.com
 
 == LICENSE:
 
