@@ -2,7 +2,8 @@ History.txt
 Manifest.txt
 README.txt
 Rakefile
+lib/hash.rb
 lib/time_with_granularity.rb
 lib/time_with_granularity/granularity.rb
 spec/spec_helper.rb
-spec/test_time_with_granularity_spec.rb
+spec/time_with_granularity_spec.rb
